@@ -1,0 +1,25 @@
+﻿<Window x:Class="TCPServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCPServer"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="400" Width="200">
+    <Grid>
+        <!--<ListView Name="MesListViev" Margin="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="{Binding Author}"></TextBlock>
+                        <TextBlock Text="{Binding Text}"></TextBlock>
+                        <TextBlock Text="______________"></TextBlock>
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+        <TextBox Name="MesTextBox" IsReadOnly="True"></TextBox>
+    </Grid>
+</Window>

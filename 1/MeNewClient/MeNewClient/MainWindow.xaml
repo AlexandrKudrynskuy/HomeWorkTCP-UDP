@@ -1,0 +1,19 @@
+﻿<Window x:Class="MeNewClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MeNewClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="210" Width="200">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock x:Name="AutTextBlock">Name</TextBlock>
+            <TextBox Name="AuthorTextBox" Width="290" Height="25"></TextBox>
+            <Button Name="AuthorBtn" Click="AuthorBtn_Click">SetName</Button>
+            <TextBox Width="290" Height="110" Name="MesTextBox" Visibility="Collapsed"/>
+            <Button x:Name="SendBtn" Click="SendBtn_Click" Visibility="Collapsed">SendMessage</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
